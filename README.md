@@ -79,6 +79,12 @@ php flarum cache:clear
 | [`afrux/asirem`](https://github.com/afrux/asirem) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/afrux-asirem/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-asirem/kk/) |
 | [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/afrux-forum-stats-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget/kk/) |
 | [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/afrux-forum-widgets-core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-forum-widgets-core/kk/) |
+| [`afrux/news-widget`](https://github.com/afrux/news-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/afrux-news-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-news-widget/kk/) |
+| [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/afrux-online-users-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-online-users-widget/kk/) |
+| [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/afrux-top-posters-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-top-posters-widget/kk/) |
+| [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/akr-chevereto/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/akr-chevereto/kk/) |
+| [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/annonny-dice/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/annonny-dice/kk/) |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Translation status](https://weblate.rob006.net/widgets/flarum/kk/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-money/kk/) |
 
 <!-- various-extensions-list-stop -->
 
