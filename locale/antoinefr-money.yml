@@ -5,23 +5,23 @@
 antoinefr-money:
   admin:
     automoderator:
-      action_name: 'Ақшаны бер'
-      metric_name: Ақша
+      action_name: 'Monetany berıñız'
+      metric_name: Monetalar
     permissions:
-      edit_money_label: 'Ақшаны өңдеу'
+      edit_money_label: 'Монеталарды өңдеу'
     settings:
-      helpextensionlikes: '<code>flarum/likes</code> кеңейтімі қажет'
-      moneyfordiscussion: 'Жаңа талқылау үшін алынған ақша'
-      moneyforlike: 'Пост ұнаған кезде берілетін ақша'
-      moneyforpost: 'Жаңа хабарлама үшін ақша алынды'
-      moneyname: 'Ақшалардың атауы (мысалы: [money] ұпайлары)'
-      noshowzero: 'Мән нөлге тең болса, көрсетпеңіз'
-      postminimumlength: 'Ақшаларды алу үшін ең аз хабарлама ұзындығы (0 - өшіру)'
-      title: Баптаулар
+      helpextensionlikes: '<code>flarum/likes</code> keñeitımı qajet'
+      moneyfordiscussion: 'Jaña talqylau üşın alynğan monetalar'
+      moneyforlike: 'Habarlama maqūldanğan jağdaida monetalar alyndy'
+      moneyforpost: 'Jaña habarlama üşın moneta alyndy'
+      moneyname: 'Monetalardyñ atauy (mysaly: [money] ūpailary)'
+      noshowzero: 'Män nölge teñ bolsa, körsetpeñız'
+      postminimumlength: 'Monetalardy alu üşın eñ az habarlama ūzyndyğy (0 - öşıru)'
+      title: Teñşeu
   forum:
     modal:
-      current: 'Ағымдағы:'
+      current: 'Ağymdağy:'
       submit_button: '=> core.ref.save_changes'
-      title: '{username} ақшасы'
+      title: '{username} monetasy'
     user_controls:
-      money_button: 'Ақшаны өңдеу'
+      money_button: 'Monetany öñdeu'
