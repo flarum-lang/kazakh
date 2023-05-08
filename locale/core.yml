@@ -9,13 +9,141 @@ core:
       colors_heading: Түстер
       colors_primary_label: 'Негізгі түс'
       colors_secondary_label: 'Қосалқы түс'
+      custom_header_heading: 'Жоғарғы колонтитул'
+      edit_footer_button: '=> core.ref.custom_footer_title'
+      edit_header_button: '=> core.ref.custom_header_title'
+      favicon_heading: Favicon
+      logo_heading: Логотип
+    basics:
+      all_discussions_label: '=> core.ref.all_discussions'
+      description: 'Форум атауын, локализацияны және басқа негізгі параметрлерді орнату.'
+      forum_description_heading: 'Форум сипаттамасы'
+      forum_description_text: 'Қауымдастықтың қысқаша сипаттамасын енгізіңіз. Сипаттама аттас мета тегінде пайда болады және оны іздеу жүйелері пайдаланады.'
+      home_page_heading: 'Басты бет'
+      home_page_text: 'Пайдаланушылар форумға кірген кезде бірінші көретін бетті таңдаңыз.'
+    dashboard:
+      description: 'Форумның басқару тақтасы.'
+      status:
+        headers:
+          session-driver: 'Сессиялар драйвері'
+    debug-warning:
+      label: 'Түзету режимі қосылған'
+    edit_css:
+      submit_button: '=> core.ref.save_changes'
+    edit_footer:
+      customize_text: '=> core.ref.custom_footer_text'
+      submit_button: '=> core.ref.save_changes'
+    edit_group:
+      delete_confirmation: 'Топты шынымен жойғыңыз келе ме? Бұл топтағы пайдаланушылар ӨШІРІЛМЕЙДІ.'
+      hide_label: 'Жасырын топ'
+      icon_text: '=> core.ref.icon_text'
+      name_label: Атауы
+      title: 'Топ қосу'
+    edit_header:
+      customize_text: '=> core.ref.custom_header_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
+    email:
+      addresses_heading: Мекенжайлар
+      description: 'Электрондық поштаны жіберу үшін форумда қолданылатын драйверді, параметрлерді және мекенжайларды орнату.'
+      driver_heading: 'Драйверді таңдаңыз'
+      from_label: Жіберуші
+      mail_host_label: Хост
+      mail_mailgun_region_label: Аймақ
+      mail_password_label: '=> core.ref.password'
+      mail_username_label: '=> core.ref.username'
+      mailgun_heading: 'Mailgun Баптаулары'
+      send_test_mail_heading: 'Тексеру хатын жіберу'
+      smtp_heading: 'SMTP баптаулары'
+    extension:
+      info_links:
+        donate: Қолдау
+        support: Көмек
+        website: Сайт
+      no_permissions: 'Кеңейтімде рұқсаттар жоқ.'
+      no_settings: 'Кеңейтімде параметрлер жоқ.'
+      open_modal: 'Баптауларды ашу'
+      permissions_title: Рұқсаттар
+      readme:
+        button_label: README
+        no_readme: 'Кеңейтімде README файлы жоқ'
+    header:
+      log_out_button: '=> core.ref.log_out'
+    nav:
+      appearance_title: '=> core.admin.appearance.description'
+      categories:
+        core: 'Форум баптаулары'
+        feature: Артықшылықтары
+        language: Тілдер
+        moderation: Модерация
+        theme: Безендіру
+      dashboard_title: '=> core.admin.dashboard.description'
+      email_title: '=> core.admin.email.description'
+      userlist_button: '=> core.admin.users.title'
+    permissions:
+      allow_renaming_label: 'Талқылау атауын өзгертуге рұқсат етіңіз'
+      create_access_token_label: 'Рұқсат токенін қосу'
+      create_heading: Қосу
+      delete_discussions_forever_label: 'Хабарламаларды өшіру(мәңгілікке)'
+      delete_posts_label: 'Хабарламаларды өшіру'
+      post_without_throttle_label: 'Күтпей жауап қату'
+      reply_to_discussions_label: 'Талқылауға жауап беру'
+      search_users_label: '=> core.ref.search_users'
+      sign_up_label: Тіркелу
+      title: Рұқсаттар
+      view_forum_label: 'Форумды қарау (талқылаулар мен пайдаланушылар)'
+      view_hidden_groups_label: 'Жасырын топтарды қараңыз'
+      view_post_ips_label: 'IP мекенжайларын көру'
+    permissions_controls:
+      allow_some_minutes_button: '{count, plural, one {# минутқа} other {# минут}}'
+      allow_ten_minutes_button: '10 минутқа'
+      members_button: '=> core.group.members'
+    upload_image:
+      remove_button: '=> core.ref.remove'
+    users:
+      grid:
+        columns:
+          edit_user:
+            title: '=> core.ref.edit_user'
+          email:
+            title: '=> core.ref.email'
+            visibility_show: 'Электронды почтаны көрсету'
+          group_badges:
+            no_badges: Жоқ
+          join_time:
+            title: Тіркелді
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: '{username} профилін қараңыз'
+        invalid_column_content: 'Қате ақпарат'
+      pagination:
+        first_button: 'Басты бетке'
+      title: '=> core.ref.users'
+  api:
+    invalid_username_message: 'Пайдаланушы атында тек латын әріптері, сандар және сызықшалар болуы мүмкін.'
+  email:
+    activate_account:
+      body: "Салеметсізбе, {username}!\n\nСіз {forum} форумында осы почта арқылы тіркелдіңіз.\n\nСілтемені бассаңыз акаунтыңыз белсендіріледі:\n{url}\n\nТіркелмеген болсаңыз, бұл хабарламаны елемеуіңізді өтінеміз.\n"
+    confirm_email:
+      subject: 'Жаңа электрондық пошта мекенжайын растау'
+    send_test:
+      body: "Сәлеметсізбе, {username}!\n\nБұл тексеру хаты, сіздің почтаңыз дұрыс бапталғанын білдіреді.\n\nЕгерде сіз осы тексерісті жасаған болсаңыз, сіз дұрыс электронды почтаңызды дұрыс баптадыңыз.\n\nБұл тексеруді инициализацияламаған болсаңыз, бұл хабарды елемеңіз.\n"
+      subject: 'Flarum e-mail ын тексеру'
   forum:
     change_email:
+      confirm_password_placeholder: '=> core.ref.confirm_password'
+      confirmation_message: '=> core.ref.confirmation_email_sent'
+      dismiss_button: '=> core.ref.okay'
       incorrect_password_message: 'Енгізілген құпия сөз дұрыс емес.'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.change_email'
     change_password:
       send_button: 'Құпия сөзді жіберу'
       text: 'Құпия сөзді өзгертуге арналған сілтемені электронды почтаға алу үшін төменгі батырманы басыңыз.'
+      title: '=> core.ref.change_password'
     composer:
+      close_tooltip: Жабу
       exit_full_screen_tooltip: 'Толық экранды режимнен шығу'
       full_screen_tooltip: 'Кеңінен ашу'
       minimize_tooltip: Кішірейту
@@ -98,8 +226,130 @@ core:
       invalid_login_message: 'Жүйеге кіру мәліметтеріңіз дұрыс емес.'
       password_placeholder: '=> core.ref.password'
       remember_me_label: 'Мені есте сақтау'
+      sign_up_text: 'Аккаунтыңыз жоқ па? <a>Тіркелу</a>'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: 'Қолданушы аты немесе e-mail'
     notifications:
+      delete_all_confirm: 'Барлық хабарландыруларды өшіргіңіз келетініне сенімдісіз бе? Бұл әрекетті қайтару мүмкін емес'
       delete_all_tooltip: 'Барлық хабарландыруларды жою'
+      discussion_renamed_text: '{username} атауын өзгертті'
+      empty_text: 'Хабарлама жоқ'
+      mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      mark_as_read_tooltip: 'Оқылған деп белгілеу'
+      title: '=> core.ref.notifications'
+      toggle_dropdown_accessible_label: 'Хабарландыруларды қарау'
+      tooltip: '=> core.ref.notifications'
+    post:
+      edited_text: Өзгертілді
+      edited_tooltip: '{username} {ago} өзгертті'
+      number_tooltip: 'Хабарлама #{number}'
+    post_controls:
+      delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Хабарды біржола жойғыңыз келетініне сенімдісіз бе? Бұл әрекетті қайтару мүмкін емес.'
+      delete_forever_button: '=> core.ref.delete_forever'
+      edit_button: '=> core.ref.edit'
+      hide_confirmation: 'Хабарламаны шынымен жойғыңыз келе ме?'
+      restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'Хабарламаны басқару ашылмалы мәзірі'
+    post_scrubber:
+      now_link: Қазір
+      original_post_link: Басы
+      unread_text: '{count} оқылмады'
+      viewing_text: '{count, plural, one {{index} / {formattedCount} хабарламалар} other {{index} / {formattedCount} хабарламалардан}}'
+    post_stream:
+      discussion_renamed_old_tooltip: 'Ескі атауы: "{old}"'
+      discussion_renamed_text: '{username} атауын өзгертті {new} {time}.'
+      load_more_button: '=> core.ref.load_more'
+      reply_placeholder: '=> core.ref.write_a_reply'
+      time_lapsed_text: '{period} өткен соң'
+    rename_discussion:
+      submit_button: '=> core.ref.rename'
+      title: 'Атын өзгерту'
+    search:
+      all_discussions_button: '"{query}" сұранысы бойынша іздеу'
+      discussions_heading: '=> core.ref.discussions'
+      users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{os} ішінде {browser}'
+      cannot_terminate_current_session: 'Ағымдағы белсенді сеансты аяқтау мүмкін емес. Оның орнына жүйеден шығыңыз.'
+      created: Қосылды
+      current_active_session: 'Ағымдағы белсенді сессия'
+      developer_tokens_heading: 'Әзірлеуші токені'
+      empty_text: 'Мұнда көретін ештеңе жоқ сияқты.'
+      global_logout:
+        heading: 'Глобалды шығу'
+        help_text: 'Ағымдағы сеанс cookie файлдарын тазалаңыз, барлық сеанстарды аяқтаңыз, әзірлеуші белгілерін қайтарып алыңыз және барлық растау электрондық пошталары мен құпия сөзді қалпына келтіру электрондық пошталарын жарамсыз етіңіз.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Токенді жасыру'
+      last_activity: 'Соңғы белсенділік'
+      never: Ешқашан
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Токен қосу'
+        title: '=> core.ref.new_token'
+        title_placeholder: Атауы
+      revoke_access_token: Қайтару
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Сессия түсті} other {# сессиялар түсті}}.'
+      session_termination_failed: 'Сеанстарды аяқтау кезінде қате орын алды.'
+      sessions_heading: 'Белсенді сессиялар'
+      show_access_token: 'Токенді көру'
+      terminate_all_other_sessions: 'Барлық басқа сеанстарды аяқтаңыз'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Аяқтау
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Такен қайтарылған.'
+      token_title_placeholder: /
+    settings:
+      account_heading: Аккаунт
+      change_email_button: '=> core.ref.change_email'
+      change_password_button: '=> core.ref.change_password'
+      notification_checkbox_a11y_label_template: '"{description}" хабарлмаларын {method} арқылы алу'
+      notifications_heading: '=> core.ref.notifications'
+      notify_by_email_heading: '=> core.ref.email'
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: 'Менің талқыламамды біреу өзгертті'
+      privacy_disclose_online_label: 'Менің online екенімді көрсету'
+      privacy_heading: Құпиялылық
+      title: '=> core.ref.settings'
+    sign_up:
+      dismiss_button: '=> core.ref.okay'
+      email_placeholder: '=> core.ref.email'
+      log_in_text: 'Бұған дейін тіркелдіңіз бе?<a>Кіру</a>'
+      password_placeholder: '=> core.ref.password'
+      submit_button: '=> core.ref.sign_up'
+      title: '=> core.ref.sign_up'
+      username_placeholder: '=> core.ref.username'
+      welcome_text: 'Сәлем, {username}!'
+    user:
+      avatar_remove_button: '=> core.ref.remove'
+      avatar_upload_button: Өзгерту
+      avatar_upload_tooltip: 'Аватар жүктеу'
+      discussions_link: '=> core.ref.discussions'
+      in_discussion_text: '{discussion} ішінде'
+      joined_date_text: 'Тіркелу: {ago}'
+      online_text: Желіде
+      posts_empty_text: 'Мұнда ешқандай хабар жоқ сияқты.'
+      posts_link: '=> core.ref.posts'
+      posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
+      settings_link: '=> core.ref.settings'
+    user_controls:
+      button: Басқару
+      delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Пайдаланушыны шынымен жойғыңыз келе ме? Пайдаланушының жазбалары ӨШІРІЛМЕЙДІ.'
+      delete_error_message: '<i>{username} ({email})</i> пайдаланушысын жою мүмкін болмады'
+      delete_success_message: '<i>{username}{email}</i> қолданушы жойылды'
+      edit_button: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Пайдаланушыны басқару ашылмалы мәзірі'
+    user_email_confirmation:
+      alert_message: '=> core.ref.confirmation_email_sent'
+      resend_button: 'Растау сілтемесін электрондық поштасына қайта жіберіңіз'
+      sent_message: Жіберілді
+    welcome_hero:
+      hide: 'Сәлемдесу хабарын жасыру'
   group:
     admin: Админ
     admins: Админдар
@@ -110,11 +360,126 @@ core:
     mod: Модер
     mods: Модераторлар
   lib:
+    alert:
+      dismiss_a11y_label: Жабу
+    badge:
+      hidden_tooltip: Жасырын
+    data_segment:
+      label: '{label}:'
+    debug_button: Тексеру
+    dropdown:
+      toggle_dropdown_accessible_label: 'Ашылмалы мәзір'
+    edit_user:
+      activate_button: 'Қолданушы белсенді ету'
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
+      groups_heading: Топтар
+      nothing_available: 'Сізге қолданушыны өзгертуге рұқсат жоқ.'
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
+      set_password_label: 'Жаңа құпия сөз қою'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.edit_user'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
     error:
+      dependent_extensions_message: 'Келесі тәуелді кеңейтімдер өшірілгенше {extension} өшіру мүмкін емес: {extensions}'
+      extension_initialiation_failed_message: '{extension} инициализацияланбады. Қосымша ақпарат алу үшін браузер консолін тексеріңіз.'
+      generic_cross_origin_message: 'Ой! Сұрауды өңдеу кезінде бірдеңе дұрыс болмады. Бетті жаңартып, әрекетті қайталаңыз.'
+      generic_message: 'Ой! Бірдеңе дұрыс болмады. Бетті жаңартып, әрекетті қайталаңыз.'
+      missing_dependencies_message: 'Келесі тәуелді кеңейтімдер қосылмайынша, {extension} қосу мүмкін емес: {extensions}'
       not_found_message: 'Сұралған ресурс табылмады.'
+      payload_too_large_message: 'Сұраныс жүктемесі тым жоғары болды.'
+      permission_denied_message: 'Бұл әрекетті орындауға рұқсат құқығыңыз жоқ.'
+      rate_limit_exceeded_message: 'Сіз тым жиі пост жазасыз. Бірнеше секундтан кейін әрекетті қайталаңыз.'
+      render_failed_message: 'Кешіріңіз, бетті көрсету кезінде қате орын алды. Пайдаланушы болсаңыз, әрекетті кейінірек қайталаңыз. Егер сіз әкімші болсаңыз, қосымша ақпарат алу үшін forum журналдарын қараңыз.'
+    loading_indicator:
+      accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Бет # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Бет # - {forumName}}}'
+    modal:
+      close: Жабу
+    nav:
+      drawer_button: 'Шарлау жолағын ашыңыз'
+    number_suffix:
+      kilo_text: К
+      mega_text: М
+    series:
+      glue_text: ', '
+      three_text: '{first}, {second}, және {third}'
+      two_text: '{first} және {second}'
+    username:
+      deleted_text: '[өшірілді]'
   ref:
+    all_discussions: 'Барлық талқыламалар'
+    change_email: 'e-mail ды өзгерту'
+    confirm_email: 'Электронды Поштаны Растау'
+    confirm_password: 'Құпия сөзді растаңыз'
+    custom_footer_text: 'Парақшаның ең астында көрінетін HTML.'
+    custom_footer_title: 'Төменгі колонтитулды өзгерту'
+    delete: Жою
+    edit: Түзету
+    edit_user: 'Қолданушыны өзгерту'
+    icon: Белгіше
+    loading: Жүктелуде...
+    log_in: Кіру
+    mark_all_as_read: 'Барлығын оқылған деп белгілеңіз'
+    reply: 'Жауап беру'
+    reset_your_password: 'Құпия сөзді жаңарту'
+    save_changes: Сақтау
+    security: Қауіпсіздік
+    settings: Баптаулар
+    sign_up: Тіркелу
+    some_others: '{count, plural, one {# басқаға} other {# басқаларға}}'
     username: 'Қолданушы аты'
     users: Қолданушылар
     view: Көру
     write_a_reply: 'Жауап жазу...'
     you: Сіз
+  views:
+    admin:
+      extensions:
+        caption: '=> core.ref.extensions=> core.ref.extensions'
+        disable: Өшіру
+        empty: 'Ешқандай кеңейтімдер орнатылмаған'
+        enable: Қосу
+        name: 'Кеңейтімнің атауы'
+        package_name: 'Қосымша пакеттің атауы'
+        version: Нұсқа
+      info:
+        caption: 'Қосымша ақпараты'
+      title: Басқару
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Электрондық пошта мекенжайыңызды растау үшін төмендегі түймені басыңыз.'
+      title: '=> core.ref.confirm_email'
+    content:
+      javascript_disabled_message: 'Бұл сайт JavaScript қосылған заманауи браузерде жақсы көрінеді.'
+      load_error_message: 'Осы сайттың толық нұсқасын жүктеп алу кезінде бірдеңе дұрыс болмады. Бұл мәселені шешу үшін шолғыштың кэшін жою бетін (CTRL+F5) жаңартып көріңіз.'
+      loading_text: '=> core.ref.loading'
+    discussion:
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
+    error:
+      csrf_token_mismatch: 'Сіз ұзақ уақыт бойы белсенді болмадыңыз.'
+      csrf_token_mismatch_return_link: 'Артқа оралып, әрекетті қайталаңыз'
+      invalid_confirmation_token: 'Растау сілтемесі жарамсыз немесе бұрыннан қолданылған.'
+      not_authenticated: 'Бұл бетке кіруге рұқсатыңыз жоқ. Тіркелгіңізге кіргеннен кейін әрекетті қайталаңыз.'
+      not_found: 'Сіз сұраған бет табылмады.'
+      not_found_return_link: '{forum} қайту'
+      permission_denied: 'Сізге бұл парақшаға рұқсат жоқ.'
+      unknown: 'Бетті жүктеу кезінде қате орын алды.'
+    index:
+      all_discussions_heading: '=> core.ref.all_discussions'
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
+    log_out:
+      log_out_button: '=> core.ref.log_out'
+      log_out_confirmation: '{forum} жүйесінен шынымен шыққыңыз келе ме?'
+      title: '=> core.ref.log_out'
+    reset_password:
+      confirm_password_label: 'Құпия сөзді растаңыз'
+      new_password_label: 'Жаңа құпия сөз'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.reset_your_password'
