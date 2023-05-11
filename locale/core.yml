@@ -16,6 +16,7 @@ core:
       logo_heading: Логотип
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
+      default_language_heading: 'Негізгі тіл'
       description: 'Форум атауын, локализацияны және басқа негізгі параметрлерді орнату.'
       forum_description_heading: 'Форум сипаттамасы'
       forum_description_text: 'Қауымдастықтың қысқаша сипаттамасын енгізіңіз. Сипаттама аттас мета тегінде пайда болады және оны іздеу жүйелері пайдаланады.'
@@ -415,7 +416,7 @@ core:
     username:
       deleted_text: '[өшірілді]'
   ref:
-    all_discussions: 'Барлық талқыламалар'
+    all_discussions: 'Барлық талқылаулар'
     change_email: 'e-mail ды өзгерту'
     change_password: 'Құпия сөзді өзгерту'
     color: Түс
