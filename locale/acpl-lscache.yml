@@ -4,6 +4,7 @@
 
 acpl-lscache:
   admin:
+    cache_enabled_label: 'LSCache қосу'
     cache_exclude_help: 'Осы жолдарды қамтитын жолдар кэштелмейді. Мысалы, <code>/mypath/mypage?aa=bb</code> үшін мұнда <code>mypage?aa=</code> қолдануға болады. Басын сәйкестендіру үшін элементтің басына <code>^</code> қосыңыз. Дәл сәйкестікті жасау үшін URL мекенжайының соңына <code>$</code> қосыңыз. Әр жолға бір.'
     cache_exclude_label: 'Жолдарды кэштемеңіз'
     clearing_cache_listener_label: 'Flarum кэші тазартылған кезде LSCache файлын тазалаңыз'
