@@ -10,7 +10,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/kazakh)](https://packagist.org/packages/flarum-lang/kazakh/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/kazakh)](https://packagist.org/packages/flarum-lang/kazakh/stats) 
 
-This language pack contains Kazakh translations for Flarum (compatible with `1.5.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Kazakh translations for Flarum (compatible with `2.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
@@ -18,7 +18,7 @@ This language pack contains Kazakh translations for Flarum (compatible with `1.5
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/kazakh:dev-master
+composer require "flarum-lang/kazakh:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
