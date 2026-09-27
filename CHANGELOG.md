@@ -13,8 +13,8 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
-* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
-* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (50% complete)
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) (100% complete)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (54% complete)
 
 
