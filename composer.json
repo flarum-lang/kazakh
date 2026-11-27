@@ -1,23 +1,20 @@
 {
 	"name": "flarum-lang/kazakh",
+	"description": "Kazakh Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Kazakh language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/kazakh",
 	"keywords": [
-		"locale",
-		"flarum",
-		"kk-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/kazakh",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/kazakh/issues",
+		"forum": "https://discuss.flarum.org/d/40195",
 		"source": "https://github.com/flarum-lang/kazakh"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Kazakh",
@@ -30,13 +27,7 @@
 		},
 		"flarum-locale": {
 			"code": "kk",
-			"title": "Kazakh"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Қазақ тілі"
 		}
 	}
 }
